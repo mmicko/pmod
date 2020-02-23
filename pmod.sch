@@ -1,0 +1,227 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x07 J2
+U 1 1 5E532916
+P 3650 1300
+F 0 "J2" V 3614 912 50  0000 R CNN
+F 1 "Conn_01x07" V 3523 912 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3650 1300 50  0001 C CNN
+F 3 "~" H 3650 1300 50  0001 C CNN
+	1    3650 1300
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3550 1650 3    50   Input ~ 0
+SCL
+Text GLabel 3650 1650 3    50   Input ~ 0
+SDA
+Text GLabel 3750 1650 3    50   Input ~ 0
+RES
+Text GLabel 3850 1650 3    50   Input ~ 0
+DC
+Text GLabel 3950 1650 3    50   Input ~ 0
+CS
+Wire Wire Line
+	1350 2150 1450 2150
+Wire Wire Line
+	3350 1650 3350 1500
+Wire Wire Line
+	3450 1650 3450 1500
+Wire Wire Line
+	3550 1650 3550 1500
+Wire Wire Line
+	3650 1650 3650 1500
+Wire Wire Line
+	3750 1650 3750 1500
+Wire Wire Line
+	3850 1650 3850 1500
+Wire Wire Line
+	3950 1650 3950 1500
+Wire Wire Line
+	2050 2050 2100 2050
+Text GLabel 2350 1950 2    50   Input ~ 0
+CS
+Text GLabel 2350 1850 2    50   Input ~ 0
+DC
+Text GLabel 2350 1750 2    50   Input ~ 0
+RES
+Text GLabel 1350 1650 0    50   Input ~ 0
+SCL
+$Comp
+L power:+3.3V #PWR0101
+U 1 1 5E529748
+P 3450 1650
+F 0 "#PWR0101" H 3450 1500 50  0001 C CNN
+F 1 "+3.3V" H 3465 1823 50  0000 C CNN
+F 2 "" H 3450 1650 50  0001 C CNN
+F 3 "" H 3450 1650 50  0001 C CNN
+	1    3450 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5E529CE5
+P 3350 1650
+F 0 "#PWR0102" H 3350 1400 50  0001 C CNN
+F 1 "GND" H 3355 1477 50  0000 C CNN
+F 2 "" H 3350 1650 50  0001 C CNN
+F 3 "" H 3350 1650 50  0001 C CNN
+	1    3350 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5E52A003
+P 2350 2050
+F 0 "#PWR0103" H 2350 1800 50  0001 C CNN
+F 1 "GND" V 2355 1922 50  0000 R CNN
+F 2 "" H 2350 2050 50  0001 C CNN
+F 3 "" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0104
+U 1 1 5E52A3DE
+P 2350 2150
+F 0 "#PWR0104" H 2350 2000 50  0001 C CNN
+F 1 "+3.3V" V 2365 2278 50  0000 L CNN
+F 2 "" H 2350 2150 50  0001 C CNN
+F 3 "" H 2350 2150 50  0001 C CNN
+	1    2350 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5E52A8AE
+P 1350 2050
+F 0 "#PWR0105" H 1350 1800 50  0001 C CNN
+F 1 "GND" V 1355 1922 50  0000 R CNN
+F 2 "" H 1350 2050 50  0001 C CNN
+F 3 "" H 1350 2050 50  0001 C CNN
+	1    1350 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5E52AE98
+P 1350 2150
+F 0 "#PWR0106" H 1350 2000 50  0001 C CNN
+F 1 "+3.3V" V 1365 2278 50  0000 L CNN
+F 2 "" H 1350 2150 50  0001 C CNN
+F 3 "" H 1350 2150 50  0001 C CNN
+	1    1350 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:AudioJack2_Ground J3
+U 1 1 5E52C24F
+P 3450 2350
+F 0 "J3" H 3482 2675 50  0000 C CNN
+F 1 "AudioJack2_Ground" H 3482 2584 50  0000 C CNN
+F 2 "audio:AUDIO_JACK_3.5mm" H 3450 2350 50  0001 C CNN
+F 3 "~" H 3450 2350 50  0001 C CNN
+	1    3450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5E52DAC6
+P 3450 2550
+F 0 "#PWR0107" H 3450 2300 50  0001 C CNN
+F 1 "GND" H 3455 2377 50  0000 C CNN
+F 2 "" H 3450 2550 50  0001 C CNN
+F 3 "" H 3450 2550 50  0001 C CNN
+	1    3450 2550
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 1850 0    50   Input ~ 0
+AUDIO_L
+Text GLabel 3800 2250 2    50   Input ~ 0
+AUDIO_L
+Text GLabel 3800 2350 2    50   Input ~ 0
+AUDIO_R
+Text GLabel 1350 1950 0    50   Input ~ 0
+AUDIO_R
+Wire Wire Line
+	3650 2250 3800 2250
+Wire Wire Line
+	3650 2350 3800 2350
+NoConn ~ 1550 1750
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5E5311A0
+P 1450 2350
+F 0 "#FLG0101" H 1450 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 2523 50  0000 C CNN
+F 2 "" H 1450 2350 50  0001 C CNN
+F 3 "~" H 1450 2350 50  0001 C CNN
+	1    1450 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5E533287
+P 2100 2350
+F 0 "#FLG0102" H 2100 2425 50  0001 C CNN
+F 1 "PWR_FLAG" H 2100 2523 50  0000 C CNN
+F 2 "" H 2100 2350 50  0001 C CNN
+F 3 "~" H 2100 2350 50  0001 C CNN
+	1    2100 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 2350 1450 2150
+Connection ~ 1450 2150
+Wire Wire Line
+	2100 2350 2100 2050
+Connection ~ 2100 2050
+Wire Wire Line
+	2050 1750 2350 1750
+Wire Wire Line
+	2050 1850 2350 1850
+Wire Wire Line
+	2050 1950 2350 1950
+Wire Wire Line
+	2100 2050 2350 2050
+Wire Wire Line
+	1450 2150 1550 2150
+Wire Wire Line
+	1350 2050 1550 2050
+Wire Wire Line
+	1350 1950 1550 1950
+Wire Wire Line
+	1350 1850 1550 1850
+Wire Wire Line
+	1350 1650 1550 1650
+Text GLabel 2350 1650 2    50   Input ~ 0
+SDA
+$Comp
+L Connector_Generic:Conn_02x06_Odd_Even J1
+U 1 1 5E52E9CC
+P 1850 1850
+F 0 "J1" H 1900 1325 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 1900 1416 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal" H 1850 1850 50  0001 C CNN
+F 3 "~" H 1850 1850 50  0001 C CNN
+	1    1850 1850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1650 2050 1650
+Wire Wire Line
+	2050 2150 2350 2150
+$EndSCHEMATC
